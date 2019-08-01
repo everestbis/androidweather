@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="weather_degree">%1$.1f &#8451;</string>
+    <string name="forecast_weather_degree">%1$.0f/%2$.0f &#8451;</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="search_title">Search City</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/weatherView">
+    <fragment android:id="@+id/weatherView" android:name="infodevelopers.com.np.weatherapp.dashboard.weather.WeatherView"
+              android:label="WeatherView"
+    tools:layout="@layout/fragment_weather_view">
+        <action android:id="@+id/action_weatherView_to_weatherForecastView" app:destination="@id/weatherForecastView"/>
+        <action android:id="@+id/action_weatherView_to_loginView" app:destination="@id/loginView"/>
+    </fragment>
+    <fragment android:id="@+id/weatherForecastView"
+              tools:layout="@layout/fragment_weather_forecast"
+              android:name="infodevelopers.com.np.weatherapp.dashboard.daily_forecast.WeatherForecastView"
+              android:label="WeatherForecastView">
+        <action android:id="@+id/action_weatherForecastView_to_loginView" app:destination="@id/loginView"/>
+        <action android:id="@+id/action_weatherForecastView_to_weatherView" app:destination="@id/weatherView"/>
+    </fragment>
+    <fragment android:id="@+id/loginView" android:name="infodevelopers.com.np.weatherapp.dashboard.LoginView"
+              android:label="LoginView"
+    tools:layout="@layout/fragment_login">
+        <action android:id="@+id/action_loginView_to_weatherForecastView" app:destination="@id/weatherForecastView"/>
+        <action android:id="@+id/action_loginView_to_weatherView" app:destination="@id/weatherView"/>
+    </fragment>
+</navigation>
