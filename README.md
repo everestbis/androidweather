@@ -10,11 +10,9 @@ Technologies used:
 - MVVM Architecture
 
 
-[//]: # (add image)
-![Image](`Screenshot_20241128-211943_Weather App.png`)
 
-![Image](`Screenshot_20241128-211957_Weather App.png`)
-
-
+## Screenshots
+![Screenshot 1](Screenshot_20241128-211957_Weather%20App.png)
+![Screenshot 2](Screenshot_20241128-211943_Weather%20App.png)
 [//]: # (add a link to the project)
 `
