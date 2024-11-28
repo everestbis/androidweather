@@ -9,10 +9,6 @@ Technologies used:
 - OpenWeatherMap API
 - MVVM Architecture
 
-
-
 ## Screenshots
-![Screenshot 1](Screenshot_20241128-211957_Weather%20App.png)
-![Screenshot 2](Screenshot_20241128-211943_Weather%20App.png)
-[//]: # (add a link to the project)
-`
+<img src="Screenshot_20241128-211957_Weather%20App.png" alt="Screenshot 1" width="300"/>
+<img src="Screenshot_20241128-211943_Weather%20App.png" alt="Screenshot 2" width="300"/>
